@@ -2387,12 +2387,25 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
+			max-width: 100%;
+		}
+
+		.image.fit img {
 			width: 100%;
 		}
 
-			.image.fit img {
-				width: 100%;
-			}
+		.image.fit.profile {
+			width: 70%;
+				height: 50%;
+				float: right;
+		}
+		.image.fit.yelp {
+			max-width: 100%;
+			
+		}
+		.image.fit.color {
+			max-width: 90%;
+		}
 
 /* List */
 
